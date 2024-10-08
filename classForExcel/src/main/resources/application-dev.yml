@@ -1,0 +1,12 @@
+logging:
+  level:
+    com.bsoft: debug
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@10.17.66.61:1521:hihis
+    username: hihis_dev
+    password: zTVsRw1Il_oP6
+
+  messages:
+    basename: classpath:/messages
+    encoding: UTF-8
